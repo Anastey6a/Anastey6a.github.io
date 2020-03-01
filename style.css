@@ -18,6 +18,7 @@ body{
 	position:sticky;
 	top: 0;
 	z-index: 10000;
+	min-width: 600px;
 }
 .top-menu-btn{
 	color: black;
@@ -38,6 +39,7 @@ body{
 .box{
 	position: relative;
 	width: 100%;
+	min-width: 600px;
 }
 #ad-box{
 	height: 200px;
@@ -131,6 +133,7 @@ body{
 	width: 100%;
 	height: 3px;
 	background: linear-gradient(to right, #e37b7b,#c9ac7d,#e37b7b);
+	min-width: 600px;
 }
 #box1{
 	margin-bottom: -4px;
@@ -159,21 +162,18 @@ body{
 	background-color: rgba(199, 105, 145,0,5);
 }
 #box3{
-	height: 1000px;
 	background-color: #c9ac7d;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 .box3-card{
-	position: absolute;
+	position:relative;
 	height: 900px;
 	width: 450px;
-	top: 50px;
+	margin: 25px;
 	background-color:#e37b7b;
-}
-#box3-card1{
-	right: 51%;
-}
-#box3-card2{
-	left: 51%;
+	display: inline-block;
 }
 .box3-card-title{
 	color:#fff;
@@ -358,6 +358,7 @@ width: 100%;
 #addition-top-menu a{
 	text-align: right;
 	color: #fff;
+	min-width: 600px;
 }
 #addition-top-menu a:hover{
 	text-decoration:underline;
@@ -464,3 +465,11 @@ width: 100%;
 	z-index: 1;
 	transform: skew(0) scale(1.05);
 }
+@media(max-width: 820px){
+ 	#box4-more{
+ 		width: 90%;
+ 		margin-right: 5%;
+ 		margin-left: 5%;
+	}
+}
+
