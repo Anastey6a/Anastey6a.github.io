@@ -64,10 +64,12 @@ transform: translate(-50%,-50%);
 #box1-element1-title{
  left:80%;
  text-align:left;
+ color: #000;
 }
  #box1-element2-title{
  left:25%;
  text-align: right;
+ color: #000;
 }
 .box1-element-title p{
 	font-family: sun;
@@ -246,3 +248,72 @@ display: none;
 #feed .block:hover .gradient{
 	height: 15%;
 }
+#box3-img{
+	width: 100%;
+}
+.box3-table-img{
+	width: 250px;
+}
+#box3-title th .descr{
+	position: absolute;
+	text-align: right;
+	font-size: 23px;
+	font-family: font1;
+	bottom: 0;
+	padding: 10px;
+	left: 75%;
+	right: 25%;
+	color: #871710;
+	
+}
+#box3-title table{
+	left: 75%;
+	right: 25%;
+	margin: auto;
+}
+#box3-title th {
+	position: relative;
+	border: solid #988560;
+	font-size: 0;
+}
+	#box3-title{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right:42px;
+	left: 42px;
+	color: #000;
+	max-width: 500px;
+	padding: 50px;
+	text-align: right;
+}
+#box3-title h1{
+	text-align: right;
+}
+#box3-title p{
+	font-size: 20px;
+	text-align: right;
+}
+.box3-table-img{
+	width: 250px;
+}
+#box3-title th .descr{
+	position: absolute;
+	text-align: right;
+	font-size: 23px;
+	bottom: 0;
+	padding: 10px;
+	left: 75%;
+	right: 25%;
+	color: #871710;
+}
+	#box3-text{
+		position: absolute;
+		text-align: right;
+		font-size: 15px;
+	}
+	#box4{
+		font-size: 25px;
+		color: #000;
+		font-family: sun;
+	}
