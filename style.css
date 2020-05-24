@@ -261,14 +261,14 @@ display: none;
 	font-family: font1;
 	bottom: 0;
 	padding: 10px;
-	left: 75%;
-	right: 25%;
+	left: 0;
+	right: 0;
 	color: #871710;
 	
 }
 #box3-title table{
-	left: 75%;
-	right: 25%;
+	left: 0;
+	right: 0;
 	margin: auto;
 }
 #box3-title th {
@@ -303,8 +303,8 @@ display: none;
 	font-size: 23px;
 	bottom: 0;
 	padding: 10px;
-	left: 75%;
-	right: 25%;
+	left: 0;
+	right: 0;
 	color: #871710;
 }
 	#box3-text{
