@@ -256,7 +256,7 @@ display: none;
 }
 #box3-title th .descr{
 	position: absolute;
-	text-align: right;
+	text-align: center;
 	font-size: 23px;
 	font-family: font1;
 	bottom: 0;
@@ -285,21 +285,21 @@ display: none;
 	color: #000;
 	max-width: 500px;
 	padding: 50px;
-	text-align: right;
+	text-align:center;
 }
 #box3-title h1{
-	text-align: right;
+	text-align:center;
 }
 #box3-title p{
 	font-size: 20px;
-	text-align: right;
+	text-align:center;
 }
 .box3-table-img{
 	width: 250px;
 }
 #box3-title th .descr{
 	position: absolute;
-	text-align: right;
+	text-align: center;
 	font-size: 23px;
 	bottom: 0;
 	padding: 10px;
@@ -309,7 +309,7 @@ display: none;
 }
 	#box3-text{
 		position: absolute;
-		text-align: right;
+		text-align: center;
 		font-size: 15px;
 	}
 	#box4{
