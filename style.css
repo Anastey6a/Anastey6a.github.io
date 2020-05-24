@@ -286,6 +286,7 @@ display: none;
 	max-width: 500px;
 	padding: 50px;
 	text-align:center;
+	text-shadow: 0 0 10px #000;
 }
 #box3-title h1{
 	text-align:center;
@@ -316,4 +317,6 @@ display: none;
 		font-size: 25px;
 		color: #000;
 		font-family: sun;
+		padding-left: 20%;
+		padding-right: 20%;
 	}
